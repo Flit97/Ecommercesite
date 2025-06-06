@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Ecommerce website{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ecommerce website to sell tee-shirts" />
+    <link rel="icon" href="{% static 'favicon.png' %}">
+
+    {% load static %}
+    <link href="{% static 'dist/styles.css' %}" rel="stylesheet" />
+</head>
+
+<body class="font-sans text-gray-800 bg-white">
+    {% block content %}{% endblock %}
+</body>
+</html>

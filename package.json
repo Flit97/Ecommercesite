@@ -1,0 +1,23 @@
+{
+    "name": "ecommercesite",
+    "version": "1.0.0",
+    "description": "Site e-commerce utilisant Tailwind CSS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch:css": "npx tailwindcss -i ./static/src/styles.css -o ./static/dist/styles.css --watch"
+    },
+
+    "keywords": [
+        "ecommerce",
+        "tailwind",
+        "frontend"
+    ],
+    "author": "Lydie Siwsanker",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.8",
+        "tailwindcss": "^4.1.8"
+    }
+}
