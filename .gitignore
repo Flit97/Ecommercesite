@@ -23,3 +23,5 @@ db.sqlite3
 
 # Fichiers statiques (si générés)
 staticfiles/
+
+requirements.txt
